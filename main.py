@@ -108,7 +108,7 @@ if __name__ == '__main__':
                 try:
                     res = client.query(query)
                     results = next(res.results).text
-                    speak('Connecting to project Ultimus')
+                    speak('Searching through Wolframalpha')
                     speak('Got it.')
                     speak(results)
 
